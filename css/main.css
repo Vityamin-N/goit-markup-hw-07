@@ -93,6 +93,9 @@ ul {
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header .logo:hover {
@@ -135,6 +138,9 @@ ul {
     font-size: 14px;
     line-height: 1.2;
     text-decoration: none;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:hover,
@@ -161,7 +167,6 @@ ul {
 
 .header-contacts {
     display: flex;
-    /* justify-content: baseline; */
     margin-left: auto;
     align-items: center;
 }
@@ -1022,3 +1027,4 @@ ul {
     font-size: 16px;
     line-height: 1.87;
 }
+/*# sourceMappingURL=main.css.map */
