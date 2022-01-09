@@ -1,21 +1,21 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::after,
 *::before {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 img {
-    display: block;
+  display: block;
 }
 
 .list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 h1,
@@ -23,10 +23,13 @@ h2,
 h3,
 p,
 ul {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
+.web {
+  color: var(--accent-color);
+}
 .section {
-    padding: 94px 0px;
+  padding: 94px 0px;
 }
