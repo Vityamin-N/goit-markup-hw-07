@@ -106,6 +106,10 @@ ul {
   color: var(--title-text-color);
 }
 
+.header .logo--light {
+  color: var(--white-color);
+}
+
 .header__item, .header__contacts-item {
   margin-right: 50px;
 }

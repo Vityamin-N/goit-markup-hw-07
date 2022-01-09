@@ -32,6 +32,9 @@
     &--dark {
       color: var(--title-text-color);
     }
+    &--light {
+      color: var(--white-color);
+    }
   }
 
   &__item,
